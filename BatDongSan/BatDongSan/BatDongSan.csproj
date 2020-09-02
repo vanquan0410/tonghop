@@ -1,4 +1,5 @@
-﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -74,6 +75,7 @@
     <Content Include="images\ads\imageAds2.jpg" />
     <Content Include="images\ads_bg.jpg" />
     <Content Include="images\anhbia.jpg" />
+    <Content Include="images\anhthanhtoan.png" />
     <Content Include="images\big_img.jpg" />
     <Content Include="images\cart.jpg" />
     <Content Include="images\chitiet.jpg" />
@@ -164,20 +166,31 @@
     <Content Include="images\title.jpg" />
     <Content Include="images\top-bg.jpg" />
     <Content Include="images\tu-van.gif" />
+    <Content Include="Page\DangNhap.aspx" />
     <Content Include="Page\Home.aspx" />
     <Content Include="Page\Products.aspx" />
+    <Content Include="Page\QLTaiKhoan.aspx" />
+    <Content Include="Page\QLDangTin.aspx" />
     <Content Include="Page\QuangCao.ascx" />
-    <Content Include="Page\QuanLyTaiKhoan.aspx" />
     <Content Include="Page\Search.ascx" />
+    <Content Include="Page\ThanhToan.aspx" />
+    <Content Include="Page\ThongBaoThanhToan.aspx" />
     <Content Include="Page\TimKiemBDS.ascx" />
     <Content Include="Page\TimKiemTuHome.aspx" />
-    <Content Include="Page\TimKiemTuHomeLan2.aspx" />
     <Content Include="Page\TinDangHCM.ascx" />
     <Content Include="Page\TinDangHN.ascx" />
+    <Content Include="Page\WebForm1.aspx" />
     <Content Include="Page\XemDuLieuNangCao.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Page\DangNhap.aspx.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\DangNhap.aspx.designer.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Page\FrontEnd.Master.cs">
       <DependentUpon>FrontEnd.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -206,13 +219,6 @@
     <Compile Include="Page\FrontEnd_2.Master.designer.cs">
       <DependentUpon>FrontEnd_2.Master</DependentUpon>
     </Compile>
-    <Compile Include="Page\FrontEnd_4.Master.cs">
-      <DependentUpon>FrontEnd_4.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\FrontEnd_4.Master.designer.cs">
-      <DependentUpon>FrontEnd_4.Master</DependentUpon>
-    </Compile>
     <Compile Include="Page\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -227,6 +233,20 @@
     <Compile Include="Page\Products.aspx.designer.cs">
       <DependentUpon>Products.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Page\QLTaiKhoan.aspx.cs">
+      <DependentUpon>QLTaiKhoan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\QLTaiKhoan.aspx.designer.cs">
+      <DependentUpon>QLTaiKhoan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\QLDangTin.aspx.cs">
+      <DependentUpon>QLDangTin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\QLDangTin.aspx.designer.cs">
+      <DependentUpon>QLDangTin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Page\QuangCao.ascx.cs">
       <DependentUpon>QuangCao.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -234,19 +254,26 @@
     <Compile Include="Page\QuangCao.ascx.designer.cs">
       <DependentUpon>QuangCao.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Page\QuanLyTaiKhoan.aspx.cs">
-      <DependentUpon>QuanLyTaiKhoan.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\QuanLyTaiKhoan.aspx.designer.cs">
-      <DependentUpon>QuanLyTaiKhoan.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Page\Search.ascx.cs">
       <DependentUpon>Search.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Page\Search.ascx.designer.cs">
       <DependentUpon>Search.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\ThanhToan.aspx.cs">
+      <DependentUpon>ThanhToan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\ThanhToan.aspx.designer.cs">
+      <DependentUpon>ThanhToan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\ThongBaoThanhToan.aspx.cs">
+      <DependentUpon>ThongBaoThanhToan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\ThongBaoThanhToan.aspx.designer.cs">
+      <DependentUpon>ThongBaoThanhToan.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\TimKiemBDS.ascx.cs">
       <DependentUpon>TimKiemBDS.ascx</DependentUpon>
@@ -262,13 +289,6 @@
     <Compile Include="Page\TimKiemTuHome.aspx.designer.cs">
       <DependentUpon>TimKiemTuHome.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Page\TimKiemTuHomeLan2.aspx.cs">
-      <DependentUpon>TimKiemTuHomeLan2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\TimKiemTuHomeLan2.aspx.designer.cs">
-      <DependentUpon>TimKiemTuHomeLan2.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Page\TinDangHCM.ascx.cs">
       <DependentUpon>TinDangHCM.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -282,6 +302,13 @@
     </Compile>
     <Compile Include="Page\TinDangHN.ascx.designer.cs">
       <DependentUpon>TinDangHN.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\XemDuLieuNangCao.aspx.cs">
       <DependentUpon>XemDuLieuNangCao.aspx</DependentUpon>
@@ -298,7 +325,6 @@
     <Content Include="Page\FrontEnd_2.Master" />
     <Content Include="Page\FrontEnd_3.Master" />
     <Content Include="Page\FrontEnd_1.Master" />
-    <Content Include="Page\FrontEnd_4.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -310,6 +336,10 @@
     <ProjectReference Include="..\BULs\BULs.csproj">
       <Project>{0ce60a5f-41f5-4813-bda0-b00241de1c15}</Project>
       <Name>BULs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{bf236862-605b-46c0-aeb1-910f0a47a1b1}</Project>
+      <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

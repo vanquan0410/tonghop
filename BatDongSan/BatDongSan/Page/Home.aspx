@@ -19,8 +19,7 @@
             <table class="auto-style2" border="1">
                 <tr>
                     <td rowspan="4">
-                        <asp:Image ID="Image1" runat="server" ImageUrl="~/images/cart.jpg"/>
-                        <%--<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl='<%# "Products.aspx?ID_TD="+Eval("ID_TD").ToString() %>' ImageUrl='<%# Eval("photo") %>'>HyperLink</asp:HyperLink>--%>
+                        <asp:Image ID="Image1" runat="server" ImageUrl='<%# Eval("photo") %>'/>
                     </td>
                     <td>
                         <asp:HyperLink ID="HyperLink1" runat="server" Text='<%# Eval("Title") %>' NavigateUrl='<%# "Products.aspx?ID_TD="+Eval("ID_TD").ToString() %>'></asp:HyperLink>

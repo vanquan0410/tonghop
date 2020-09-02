@@ -41,18 +41,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BatDongSanBUL.cs" />
     <Compile Include="DangTinBUL.cs" />
     <Compile Include="LoaiTinBUL.cs" />
-    <Compile Include="MucTinBUL.cs" />
+    <Compile Include="MucTinBUS.cs" />
     <Compile Include="PhuongBUL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLTincs.cs" />
     <Compile Include="QuanBUL.cs" />
     <Compile Include="ThanhPhoBUL.cs" />
+    <Compile Include="ThanhToanBUL.cs" />
+    <Compile Include="UserBUS.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Data\DALs.csproj">
       <Project>{14a3412a-53a7-4caf-b14d-f528321fb555}</Project>
       <Name>DALs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{bf236862-605b-46c0-aeb1-910f0a47a1b1}</Project>
+      <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

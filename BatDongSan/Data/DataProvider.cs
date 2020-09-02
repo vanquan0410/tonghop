@@ -10,7 +10,7 @@ namespace Data
 {
     public class DataProvider
     {
-        string strCon = @"Data Source=DESKTOP-9R99DB1\SQLEXPRESS;Initial Catalog=BatDongSan;Integrated Security=True";
+        string strCon = @"Data Source=DESKTOP-VQPCJ5U\SQLEXPRESS;Initial Catalog=BatDongSan;Integrated Security=True";
         public DataTable ExecuteQuery(string query)
         {
             DataTable data = new DataTable();
@@ -35,6 +35,16 @@ namespace Data
                 conn.Close();
             }
             return data;
+        }
+        public void excutenonquery(String query)
+        {
+            using (SqlConnection conn = new SqlConnection(strCon))
+            {
+                conn.Open();
+                SqlCommand command = new SqlCommand(query, conn);
+                command.ExecuteNonQuery();
+                conn.Close();
+            }
         }
     }
 }

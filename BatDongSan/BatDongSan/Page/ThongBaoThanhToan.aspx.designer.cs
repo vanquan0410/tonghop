@@ -11,7 +11,7 @@ namespace BatDongSan.Page
 {
 
 
-    public partial class QuanLyTaiKhoan
+    public partial class ThongBaoThanhToan
     {
     }
 }

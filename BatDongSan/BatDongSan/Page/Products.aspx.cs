@@ -19,10 +19,5 @@ namespace BatDongSan.Page
             DataList1.DataSource = dangTinBUL.getListDangTin_ID(ID_TD);
             DataList1.DataBind();
         }
-
-        protected void btnHienThiSDT_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

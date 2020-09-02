@@ -13,16 +13,13 @@
         .auto-style5 {
             width: 98%;
         }
+        .auto-style6 {
+            width: 57%;
+        }
         .auto-style7 {
             width: 30%;
         }
     </style>
-    <script type="text/javascript">
-        function Test() {
-            btnHienThiSDT.Visible = "False";
-            lblSoDienThoai.Visible = "True";
-        }
-    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="main_body" runat="server">
 
@@ -69,16 +66,14 @@
             <td class="auto-style7">
                 <asp:Label ID="Label12" runat="server" Text='<%# Eval("NgayDang") %>'></asp:Label>
                 <br />
-                <asp:TextBox ID="TextBox1" runat="server" placeholder="Nhap email de luu tin ve email"></asp:TextBox>
+                <asp:TextBox ID="TextBox1" runat="server" Text="Nhap email de luu tin ve email"></asp:TextBox>
                 <br />
                 <asp:Button ID="Button2" runat="server" Text="Luu Tin Ve email" />
             </td>
             <td class="auto-style5">
                 <asp:Label ID="Label13" runat="server" Text="Thong tin lien He"></asp:Label>
                 <br />
-                <asp:Label ID="Label14" runat="server" Text="So Dien thoai:"></asp:Label>
-                <asp:Button ID="btnHienThiSDT" runat="server" Text="Bam de hien so chu nha" Visible="False" OnClick="btnHienThiSDT_Click" OnClientClick="Test()" />
-                <asp:Label ID="lblSoDienThoai" runat="server" Text='<%# Eval("sdt") %>'></asp:Label>
+                <asp:Label ID="Label14" runat="server" Text="So Dien thoai"></asp:Label>
                 <br />
                 <asp:Label ID="Label15" runat="server" Text="neu tin nay da ban,sai thong tin,vui long phan hoi ve page"></asp:Label>
                 <br />
@@ -90,7 +85,7 @@
                     <asp:ListItem>Gia ban khong dung</asp:ListItem>
                     <asp:ListItem>Khac</asp:ListItem>
                 </asp:DropDownList>
-                <asp:TextBox ID="TextBox2" runat="server" placeholder="Chi tiet"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" Text="Chi tiet"></asp:TextBox>
                 <asp:Button ID="Button3" runat="server" Text="Gui" />
             </td>
         </tr>

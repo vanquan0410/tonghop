@@ -39,14 +39,14 @@
                     <ul>
                         <li><a href="Home.aspx"><span>Trang Chu/TimKiem</span></a></li>
                         <li><a href="#"><span>Gioi Thieu</span></a></li>
-                        <li><a href="#"><span>Dang Tin</span></a></li>
-                        <li><a href="#"><span>Kinh Nghiem Dang Tin Hieu Qua</span></a></li>
+                        <li><a href="QLDangTin.aspx"><span>Dang Tin</span></a></li>
+                        <li><a href="WebForm1.aspx"><span>Kinh Nghiem Dang Tin Hieu Qua</span></a></li>
                         <li><a href="XemDuLieuNangCao.aspx"><span>Xem Du Lieu Nang Cao</span></a></li>
                         <li><a href="#"><span>Dich Vu Tuyen Dung Moi Gioi</span></a></li>
                         <li><a href="#"><span>Dinh Gia</span></a></li>
                         <li><a href="#"><span>Ban Do Quy Hoach</span></a></li>
-                        <li><a href="#"><span>Thanh Toan</span></a></li>
-                        <li><a href="QuanLyTaiKhoan.aspx"><span>Quan Ly Tai Khoan</span></a></li>
+                        <li><a href="ThanhToan.aspx"><span>Thanh Toan</span></a></li>
+                        <li><a href="#"><span>Quan Ly Tai Khoan</span></a></li>
                     </ul>
                 </div>
                 <div id="logo">

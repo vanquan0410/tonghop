@@ -6,3 +6,12 @@ C:\Users\admin\source\repos\BatDongSan\BULs\obj\Debug\BULs.csprojAssemblyReferen
 C:\Users\admin\source\repos\BatDongSan\BULs\obj\Debug\BULs.csproj.CopyComplete
 C:\Users\admin\source\repos\BatDongSan\BULs\obj\Debug\BULs.dll
 C:\Users\admin\source\repos\BatDongSan\BULs\obj\Debug\BULs.pdb
+C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\BULs\bin\Debug\BULs.dll
+C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\BULs\bin\Debug\BULs.pdb
+C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\BULs\bin\Debug\Data.dll
+C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\BULs\bin\Debug\Data.pdb
+C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\BULs\obj\Debug\BULs.csprojResolveAssemblyReference.cache
+C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\BULs\obj\Debug\BULs.dll
+C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\BULs\obj\Debug\BULs.pdb
+C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\BULs\bin\Debug\DTO.dll
+C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\BULs\bin\Debug\DTO.pdb

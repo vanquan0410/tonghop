@@ -4,10 +4,9 @@
         <td><p>
     ***chọn vị trí cần mua,thuê căn hộ</p>
             <p>
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BatDongSanConnectionString %>" SelectCommand="SELECT * FROM [ThanhPho]"></asp:SqlDataSource>
-            </p>
+                &nbsp;</p>
 <p>
-    <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="Name_TP" DataValueField="ID_TP" >
+    <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" AutoPostBack="True" >
         <asp:ListItem>Chon Tinh,Thanh Pho</asp:ListItem>
     </asp:DropDownList>
 &nbsp;
@@ -16,7 +15,7 @@
     </asp:DropDownList>
 &nbsp;
     <asp:DropDownList ID="DropDownList3" runat="server">
-        <asp:ListItem >Chon Phuong,Xa</asp:ListItem>
+        <asp:ListItem>Chon Phường,Xã</asp:ListItem>
     </asp:DropDownList>
 &nbsp;
     <asp:Button ID="btnTimKiem" runat="server" Text="Tim Kiem" Width="135px" OnClick="btnTimKiem_Click" />
