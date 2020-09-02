@@ -1,0 +1,4 @@
+C:\Users\admin\source\repos\BatDongSan\Data\bin\Debug\Data.dll
+C:\Users\admin\source\repos\BatDongSan\Data\bin\Debug\Data.pdb
+C:\Users\admin\source\repos\BatDongSan\Data\obj\Debug\Data.dll
+C:\Users\admin\source\repos\BatDongSan\Data\obj\Debug\Data.pdb

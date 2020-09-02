@@ -1,0 +1,8 @@
+C:\Users\admin\source\repos\BatDongSan\BULs\bin\Debug\BULs.dll
+C:\Users\admin\source\repos\BatDongSan\BULs\bin\Debug\BULs.pdb
+C:\Users\admin\source\repos\BatDongSan\BULs\bin\Debug\Data.dll
+C:\Users\admin\source\repos\BatDongSan\BULs\bin\Debug\Data.pdb
+C:\Users\admin\source\repos\BatDongSan\BULs\obj\Debug\BULs.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\BatDongSan\BULs\obj\Debug\BULs.csproj.CopyComplete
+C:\Users\admin\source\repos\BatDongSan\BULs\obj\Debug\BULs.dll
+C:\Users\admin\source\repos\BatDongSan\BULs\obj\Debug\BULs.pdb
