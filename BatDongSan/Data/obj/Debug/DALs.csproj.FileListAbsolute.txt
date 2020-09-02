@@ -8,3 +8,8 @@ C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\Data\bin\Debug\Data.pdb
 C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\Data\obj\Debug\DALs.csprojResolveAssemblyReference.cache
 C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\Data\obj\Debug\Data.dll
 C:\Users\pc-dell\Desktop\BatDongSan1\BatDongSan\Data\obj\Debug\Data.pdb
+C:\Users\pc-dell\Desktop\BatDongSan1\tonghop\BatDongSan\Data\bin\Debug\Data.dll
+C:\Users\pc-dell\Desktop\BatDongSan1\tonghop\BatDongSan\Data\bin\Debug\Data.pdb
+C:\Users\pc-dell\Desktop\BatDongSan1\tonghop\BatDongSan\Data\obj\Debug\DALs.csprojResolveAssemblyReference.cache
+C:\Users\pc-dell\Desktop\BatDongSan1\tonghop\BatDongSan\Data\obj\Debug\Data.dll
+C:\Users\pc-dell\Desktop\BatDongSan1\tonghop\BatDongSan\Data\obj\Debug\Data.pdb
