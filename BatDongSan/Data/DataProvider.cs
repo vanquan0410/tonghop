@@ -34,7 +34,7 @@ namespace Data
                 data = command.ExecuteNonQuery();
                 conn.Close();
             }
-            return data;
+            return data;  
         }
         public void excutenonquery(String query)
         {
